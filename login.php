@@ -78,8 +78,6 @@ $usuarios['pass']=array('P','A1','J','F','R','A2');
                 $posUser = array_search($_POST['nombre'], $usuarios['user']);
                 $posPass = array_search($_POST['clave'], $usuarios['pass']);
 
-                // ss
-
                 if ($posUser == $posPass && ($posUser !== FALSE && $posPass !== FALSE)) {
                     echo 'Bienvenido '.$_POST['nombre'];
                 }else {
