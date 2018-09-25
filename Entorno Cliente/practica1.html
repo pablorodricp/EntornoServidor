@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Practica 1 Cliente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <p id='patata'></p>
+    <script>
+
+function funcion1() {    
+    var nombre = prompt("Introduce tu nombre");
+
+    if (nombre == '') {
+        alert('Debe introducir un usuario');
+        location.reload();
+    }else{
+        document.getElementById("patata").innerHTML =
+        "Hola " + nombre + "! Que tal?";
+    }
+}
+</script>
+
+<button onclick="funcion1()">Dale aqui hazme caso</button>
+
+</body>
+</html>
