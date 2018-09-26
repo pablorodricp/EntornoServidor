@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Practica 2 Entornos Cliente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<p id="patata"></p>
+
+<script>
+
+    var nombre = (prompt("Introduce el nombre del alumno"));
+    var numerito2 = parseInt(prompt("Introduce un numero"));
+    var numerito3 = parseInt(prompt("Introduce un numero"));
+
+    if (!nombre || !numerito2 || !numerito3) {
+        alert('Ha dejado algun campo vacio. Debe introducir un valor');
+        location.reload();
+    }else {
+
+        var media = (numerito2+numerito3)/2;
+        document.getElementById('patata').innerHTML = 'Media de '+nombre+': '+media;
+    }
+
+</script>
+
+</body>
+</html>

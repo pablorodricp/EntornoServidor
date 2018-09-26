@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+    <script type="text/javascript">
+    var mayor=0;
+    var contador=0;
+    var aux = 0;
+
+        do{
+            
+            var n= parseInt(prompt('Introduzca un numero'));
+            if (n>mayor) {
+                mayor=n;
+                contador = 0;
+            }
+
+            if (mayor==n) {
+                contador++;
+            }
+        }while(n !=0);
+        alert('Numero: '+mayor+' ,'+' veces: '+contador);
+        
+    </script>
+
+</body>
+</html>

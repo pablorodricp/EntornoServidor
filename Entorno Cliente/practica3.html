@@ -13,16 +13,16 @@
     <script>
  
     function Sumar() {
-        return n1+n2;
+        alert(n1+n2);
     }
     function Restar() {
-        return n1-n2;
+        alert(n1-n2);
     }
     function Multiplicar() {
-        return n1*n2;
+        alert(n1*n2);
     }
     function Dividir() {
-        return n1/n2;
+        alert(n1/n2);
     }
     
     var n1 = parseInt(prompt('Introduce el primer numero'));
@@ -32,6 +32,7 @@
         alert('Debe introducir algun valor');
         location.reload();
     }else {
+        document.getElementById('patata').innerHTML = '<button onclick="Sumar()">Suma</button><button onclick="Restar()">Resta</button><button onclick="Multiplicar()">Multiplica</button><button onclick="Dividir()">Divide</button>';
 
     }
 

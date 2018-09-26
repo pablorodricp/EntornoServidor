@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Practica 2 Entornos Cliente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<p id="patata"></p>
+
+<script>
+
+var dias=['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'];
+
+var entrada = parseInt(prompt('Introduce un dia'));
+entrada -=1;
+
+if (entrada>6 || entrada <1) {
+    alert('Ese dia no existe');
+}else {
+    alert('Ha introducido el '+dias[entrada]);
+}
+
+</script>
+
+</body>
+</html>
