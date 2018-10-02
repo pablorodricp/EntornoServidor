@@ -1,0 +1,740 @@
+
+
+
+@media screen and (min-width: 768px) and (max-width: 768px){
+	.usuario{
+		display: none;
+	}
+	.nav {
+		height: 10%;
+		width: 23.010209%;
+		text-align: center;
+	}
+	.nav a {
+		font-size: 27px;
+	}
+	.conectado {
+		height: 10%;
+		width: 35.1%;
+		text-align: center;
+		font-size: 27px; 
+	}
+	.carro {
+		width: 99.7%;
+		padding: 0%;
+		padding-bottom: 2%;
+
+	}
+	
+	.carro img {
+		width: 7%;
+		float: right;
+		margin-right: 35.9%;
+
+	}
+	.section {
+		height: 730px;
+	}
+	.productos {
+		margin-left: 5.5%;
+		margin-bottom: 0%;
+	}
+
+	.productos form {
+		width: 150%;
+	}
+
+	.productos div {
+		padding: 0%;
+		margin-top: 10%;
+		padding-right: 65;
+		padding-left: 50;
+	}
+
+	.registro {
+		height: 10%;
+		width: 47.15%;
+		text-align: center;
+		font-size: 27px;
+	}
+
+	.section2 {
+		height: 75.5%;
+	}
+
+	.formulario {
+		margin-top: 39.25%;
+		width: 70%;
+		padding: 4%;
+		margin-left: 12.6%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px){
+	.usuario{
+		display: none;
+	}
+	.nav {
+		width: 23.010209%;
+		text-align: center;
+	}
+	.nav a {
+		font-size: 27px;
+	}
+	.conectado {
+		width: 34.75%;
+		text-align: center;
+	}
+	.carro {
+		width: 99.85%;
+		padding: 0%;
+		padding-bottom: 3%;
+
+	}
+	
+	.carro img {
+		width: 5%;
+		float: right;
+		margin-right: 37.5%;
+
+	}
+	.section {
+		height: 980;
+	}
+	.productos {
+		margin-left: 5.5%;
+		margin-bottom: 0%;
+	}
+
+	.productos form {
+		width: 150%;
+	}
+
+	.productos div {
+		padding: 0%;
+		margin-top: 10%;
+		padding-right: 255;
+		padding-left: 125;
+		padding-bottom: 110;
+	}
+
+	.registro {
+		width: 47.5%;
+		text-align: center;
+		font-size: 27px;
+	}
+
+	.section2 {
+		height: 75.5%;
+	}
+
+	.formulario {
+		margin-top: 39.25%;
+		width: 70%;
+		padding: 4%;
+		margin-left: 12.6%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) and (min-height: 1366px) and (max-height: 1366px){
+	.usuario{
+		display: none;
+	}
+	.nav {
+		width: 23.010209%;
+		text-align: center;
+	}
+	.nav a {
+		font-size: 27px;
+	}
+	.conectado {
+		width: 34.75%;
+		text-align: center;
+	}
+	.carro {
+		width: 99.7%;
+		padding: 0%;
+		padding-bottom: 5%;
+
+	}
+	
+	.carro img {
+		width: 11%;
+		float: right;
+		margin-right: 33.5%;
+
+	}
+	.section {
+		height: 980;
+	}
+	.productos {
+		margin-left: 5.5%;
+		margin-bottom: 0%;
+	}
+
+	.productos form {
+		width: 150%;
+	}
+
+	.productos div {
+		padding: 0%;
+		margin-top: 10%;
+		padding-right: 65;
+		padding-left: 115;
+		padding-bottom: 110;
+	}
+
+	.registro {
+		width: 47.15%;
+		text-align: center;
+		font-size: 27px;
+	}
+
+	.section2 {
+		height: 75.5%;
+	}
+
+	.formulario {
+		margin-top: 39.25%;
+		width: 70%;
+		padding: 4%;
+		margin-left: 12.6%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+	.usuario{
+		display: none;
+	}
+	.nav {
+		width: 23.010209%;
+		text-align: center;
+	}
+	.nav a {
+		font-size: 27px;
+	}
+	.conectado {
+		width: 35.1996%;
+		text-align: center;
+		font-size: 27px;
+	}
+	.conectado a {
+		font-size: 27px;
+	}
+	.carro {
+		width: 99.7%;
+		padding: 0%;
+		padding-bottom: 4%;
+
+	}
+	
+	.carro img {
+		width: 7%;
+		float: right;
+		margin-right: 35.5%;
+
+	}
+	.section {
+		height: 730px;
+	}
+	.productos {
+		margin-left: 5.5%;
+		margin-bottom: 0%;
+	}
+
+	.productos form {
+		width: 150%;
+	}
+
+	.productos div {
+		padding: 0%;
+		margin-top: 10%;
+		padding-right: 65;
+		padding-left: 115;
+	}
+
+	.registro {
+		width: 47.15%;
+		text-align: center;
+		font-size: 27px;
+	}
+
+	.section2 {
+		height: 75.5%;
+	}
+
+	.formulario {
+		margin-top: 20.25%;
+		width: 70%;
+		padding: 4%;
+		margin-left: 12.6%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+
+}
+
+@media screen and (max-width: 640px) and (min-width: 640px){
+	.usuario{
+		display: none;
+	}
+	.nav {
+		width: 23.5%;
+		text-align: center;
+	}
+	.conectado {
+		width: 34.75%;
+		text-align: center;
+	}
+	.carro {
+		width: 99.7%;
+		padding: 0%;
+		padding-bottom: 3%;
+
+	}
+	
+	.carro img {
+		width: 5%;
+		float: right;
+		margin-right: 37.5%;
+
+	}
+	.section {
+		height: 800;
+	}
+	.productos {
+		margin-left: 5.5%;
+		margin-bottom: 0%;
+	}
+
+	.productos form {
+		width: 150%;
+	}
+
+	.productos div {
+		padding: 0%;
+		margin-top: 10%;
+		padding-right: 55;
+		padding-left: 25;
+		padding-bottom: 110;
+	}
+
+	.registro {
+		width: 46%;
+		text-align: center;
+		
+	}
+
+	.section2 {
+		height: 65.5%;
+	}
+
+	.formulario {
+		margin-top: 0;
+		width: 70%;
+		padding: 4%;
+		margin-left: 12.6%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+
+	.header {
+		height: 20%;
+	}
+
+}
+
+@media screen and (max-width: 425px) {
+	.usuario{
+		display: none;
+	}
+	.nav {
+		width: 23.05%;
+		text-align: center;
+		font-size: 14;
+	}
+	.conectado {
+		width: 34.75%;
+		text-align: center;
+	}
+	.carro {
+		width: 99.5%;
+		padding: 0%;
+		padding-bottom: 0%;
+
+	}
+	.carro img {
+		width: 8.5%;
+		float: right;
+		margin-right: 34.8%;
+
+	}
+	.section {
+		height: 1350px;
+	}
+	.productos {
+		margin-left: 20.5%;
+
+	}
+
+	.productos div {
+		margin-top: 10%;
+	}
+
+	.registro {
+		width: 46.4%;
+		text-align: center;
+		font-size: 14;
+	}
+
+	.section2 {
+		height: 75.5%;
+	}
+
+	.formulario {
+		margin-top: 39.25%;
+		width: 70%;
+		padding: 4%;
+		margin-left: 12.6%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+
+}
+
+
+@media screen and (max-width: 414px) {
+	.usuario{
+		display: none;
+	}
+	.nav {
+		width: 23.010209%;
+		text-align: center;
+	}
+	.conectado {
+		width: 34.75%;
+		text-align: center;
+	}
+	.carro {
+		width: 99.5%;
+		padding: 0%;
+		padding-bottom: 2.5%;
+
+	}
+	.carro img {
+		width: 11%;
+		float: right;
+		margin-right: 33.5%;
+
+	}
+	.section {
+		height: 1350px;
+	}
+	.productos {
+		margin-left: 20.5%;
+
+	}
+
+	.productos div {
+		margin-top: 10%;
+	}
+
+	.registro {
+		width: 46.4%;
+		text-align: center;
+	}
+
+	.section2 {
+		height: 75.5%;
+	}
+
+	.formulario {
+		margin-top: 39.25%;
+		width: 70%;
+		padding: 4%;
+		margin-left: 12.6%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+
+}
+
+@media screen and (max-width: 411px) {
+	.usuario{
+		display: none;
+	}
+	.nav {
+		width: 23.010209%;
+		text-align: center;
+	}
+	.conectado {
+		width: 34.75%;
+		text-align: center;
+	}
+	.carro {
+		width: 99.5%;
+		padding: 0%;
+		padding-bottom: 2.5%;
+
+	}
+	.carro img {
+		width: 11%;
+		float: right;
+		margin-right: 33.5%;
+
+	}
+	.section {
+		height: 1350px;
+	}
+	.productos {
+		margin-left: 21.5%;
+
+	}
+
+	.productos div {
+		margin-top: 10%;
+	}
+
+	.registro {
+		width: 46.4%;
+		text-align: center;
+	}
+
+	.section2 {
+		height: 75.5%;
+	}
+
+	.formulario {
+		margin-top: 39.25%;
+		width: 70%;
+		padding: 4%;
+		margin-left: 12.6%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+	.usuario{
+		display: none;
+	}
+	.nav {
+		width: 22.8%;
+		text-align: center;
+	}
+	.conectado {
+		width: 34.75%;
+		text-align: center;
+	}
+	.carro {
+		width: 99.5%;
+		padding: 0%;
+		padding-bottom: 0%;
+
+	}
+	.carro img {
+		width: 9%;
+		float: right;
+		margin-right: 34.7%;
+
+	}
+	.section {
+		height: 1330px;
+	}
+	.productos {
+		margin-left: 18.5%;
+
+	}
+
+	.productos div {
+		margin-top: 10%;
+	}
+
+	.registro {
+		width: 46.7%;
+		text-align: center;
+	}
+
+	.section2 {
+		height: 75.5%;
+	}
+
+	.formulario {
+		margin-top: 39.25%;
+		width: 80%;
+		padding: 4%;
+		margin-left: 8.5%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+
+}
+
+
+@media screen and (max-width: 360px) {
+	.usuario{
+		display: none;
+	}
+	.nav {
+		width: 22.6%;
+		text-align: center;
+	}
+	.conectado {
+		width: 34.75%;
+		text-align: center;
+	}
+	.carro {
+		width: 99.5%;
+		padding: 0%;
+		padding-bottom: 2.5%;
+
+	}
+	.carro img {
+		width: 11%;
+		float: right;
+		margin-right: 33.5%;
+
+	}
+	.section {
+		height: 1330px;
+	}
+	.productos {
+		margin-left: 17%;
+
+	}
+
+	.productos div {
+		margin-top: 10%;
+	}
+
+	.registro {
+		width: 47%;
+		text-align: center;
+	}
+
+	.section2 {
+		height: 75.5%;
+	}
+
+	.formulario {
+		margin-top: 39.25%;
+		width: 80%;
+		padding: 4%;
+		margin-left: 8.5%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	.usuario{
+		display: none;
+	}
+	.nav {
+		font-size: 14;
+		width: 22.55%;
+		text-align: center;
+	}
+	.conectado {
+		width: 34.75%;
+		text-align: center;
+	}
+	.carro {
+		width: 99.5%;
+		padding: 0%;
+		padding-bottom: 0%;
+
+	}
+	.carro img {
+		width: 10.5%;
+		float: right;
+		margin-right: 34.2%;
+
+	}
+	.section {
+		height: 1300px;
+	}
+	.productos {
+		margin-left: 12%;
+
+	}
+
+	.productos div {
+		margin-top: 10%;
+	}
+
+	.registro {
+		font-size: 14;
+		width: 46.8%;
+		text-align: center;
+	}
+
+	.section2 {
+		height: 76.5%;
+	}
+
+	.formulario {
+		margin-top: 39.25%;
+		width: 80%;
+		padding: 4%;
+		margin-left: 8.5%;
+	}
+	.inicio {
+		text-align: center;
+		width: 93.5%;
+		padding-top: 5%;
+		padding-left: 5%;
+	}
+

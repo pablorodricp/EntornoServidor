@@ -1,0 +1,125 @@
+<?php
+
+$conexion = mysqli_connect("localhost","root","","practica1");
+
+$consulta = "SELECT * FROM productos";
+
+$resultado = $conexion->query($consulta);
+
+$row = $resultado->fetch_all(MYSQLI_ASSOC);
+
+MYSQLI_FREE_RESULT($resultado);
+
+
+$consulta = "SELECT * FROM imagen";
+
+$resultado = $conexion ->query($consulta);
+
+$imagen = $resultado->fetch_array(MYSQLI_ASSOC);
+
+?>
+
+	
+	
+	<div class="section">
+
+	<div class="productos">
+
+		<div>
+				 
+				<input type="hidden" name="agregar"> 
+				<table border="0" class="tablaprod"> 
+				<tr> 
+				<td style="width: 150;"> 
+				<?php echo '<img src="data:image/jpeg;base64,'.base64_encode($row[1]['img']) .'" style="height: 33.4%;" />';  ?>
+
+				<input name="nombre_producto" type="hidden" id="nombre_producto_<?php echo $row[1]['codigoprod'];?>" value="<?php echo $row[1]['nombre'];?>"> Producto: <b><?php
+					echo $row[1]['nombre'];
+				 ?></b><br> 
+				Descripcion: <b><?php
+					echo $row[1]['Descripcion'];
+					?></b><br> 
+				Precio: <b><?php
+					echo $row[1]['precio'];
+					?>€</b><br> 
+				<input type="submit" class="boton" name="Boli" id="Boli" value="Añadir al carrito" onclick="anadido($('#nombre_producto_<?php echo $row[1]['codigoprod'];?>').val());">
+				</td> 
+				</tr>
+				</table>
+				
+		</div>
+
+		<div>
+				
+				<input type="hidden" name="agregar"> 
+				<table border="0" class="tablaprod"> 
+				<tr> 
+				<td> 
+				<?php echo '<img src="data:image/jpeg;base64,'.base64_encode($row[2]['img']) .'" />';  ?>
+				
+				<input name="nombre_producto" type="hidden" id="nombre_producto_<?php echo $row[2]['codigoprod'];?>" value="<?php echo $row[2]['nombre'];?>"> Producto: <b><?php
+					echo $row[2]['nombre'];
+				 ?></b><br> 
+				Descripcion: <b><?php
+					echo $row[2]['Descripcion'];
+					?></b><br> 
+				Precio: <b><?php
+					echo $row[2]['precio'];
+					?>€</b><br> 
+				<input type="submit" class="boton" name="Lapiz" id="Lapiz" value="Añadir al carrito" onclick="anadido($('#nombre_producto_<?php echo $row[2]['codigoprod'];?>').val());">
+				</td> 
+				</tr>
+				</table>
+			
+		</div>
+
+		<div>
+				
+				<input type="hidden" name="agregar"> 
+				<table border="0" class="tablaprod"> 
+				<tr> 
+				<td> 
+				<?php echo '<img src="data:image/jpeg;base64,'.base64_encode($row[0]['img']) .'" />';  ?>
+				<input name="nombre_producto" type="hidden" id="nombre_producto_<?php echo $row[0]['codigoprod'];?>" value="<?php echo $row[0]['nombre'];?>"> Producto: <b><?php
+					echo $row[0]['nombre'];
+				 ?></b><br> 
+				Descripcion: <b><?php
+					echo $row[0]['Descripcion'];
+					?></b><br> 
+				Precio: <b><?php
+					echo $row[0]['precio'];
+					?>€</b><br> 
+				<input type="submit" class="boton" name="Clip" id="Clip" value="Añadir al carrito" onclick="anadido($('#nombre_producto_<?php echo $row[0]['codigoprod'];?>').val());">
+				</td> 
+				</tr>
+				</table>
+					</div>
+
+		<div>
+				<input type="hidden" name="agregar"> 
+				<table border="0" class="tablaprod"> 
+				<tr> 
+				<td> 
+
+				<?php echo '<img src="data:image/jpeg;base64,'.base64_encode($row[3]['img']) .'" />';  ?>
+
+				<input name="nombre_producto" type="hidden" id="nombre_producto_<?php echo $row[3]['codigoprod'];?>" value="<?php echo $row[3]['nombre'];?>"> Producto: <b><?php
+					echo $row[3]['nombre'];
+				 ?></b><br> 
+				Descripcion: <b><?php
+					echo $row[3]['Descripcion'];
+					?></b><br> 
+				Precio: <b><?php
+					echo $row[3]['precio'];
+					?>€</b><br> 
+				<input type="submit" class="boton" name="Goma" id="Goma" value="Añadir al carrito" onclick="anadido($('#nombre_producto_<?php echo $row[3]['codigoprod'];?>').val());">
+				</td> 
+				</tr>
+				</table>
+			
+		</div>
+
+	</div>
+
+	
+</div>

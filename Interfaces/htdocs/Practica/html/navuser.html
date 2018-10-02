@@ -1,0 +1,48 @@
+<div class="usuario">
+    <a href="#">Usuarios</a>
+
+    <section>
+    <?php 
+
+    while($u = $result->fetch_assoc()) {
+      echo $u['nombre'];
+      echo '<br>';
+      echo '<br>';
+    }
+    mysqli_free_result($result);
+
+    ?>
+    <div class="tabla">
+      <div class="celda">
+        <a href="php/exportarCSV.php">Exportar a CSV</a>
+      </div>
+
+      <div class="celda">
+        <a href="php/exportarPDF.php">Exportar a PDF</a>
+      </div>
+
+    </div>
+    
+    </section>
+
+  </div>
+
+  <div class="nav">
+    <a href="index.php">Inicio</a>
+  </div>
+
+  <div class="conectado">
+    <?php
+    if (isset($_SESSION['nombreusuario']))
+    echo $_SESSION['nombreusuario'];
+    ?>
+  </div>
+
+  <div class="conectado">
+    <a href="php/logout.php">Logout</a>
+  </div>
+
+  <div class="carro">
+  <a href="php/carrito.php"><?php echo '<img src="data:image/jpeg;base64,'.base64_encode($imagen['carrito']) .'" />';  ?></a>
+
+  </div>
