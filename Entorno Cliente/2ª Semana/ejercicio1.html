@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+<script>
+    var farenheit,celsius;
+    var s="";
+    for(i=-2;i<=12;i++)
+    {
+     celsius=10*i;
+     farenheit=32+(celsius*9)/5;
+     s=s+"C= "+celsius+" F= "+farenheit+"\n";
+     if (celsius==0)
+     s=s+"Punto congelación del Agua\n";
+     if (celsius==100)
+     s=s+"Punto de ebullición del Agua\n";
+    }
+    alert(s);
+</script>
+   
+</body>
+</html>

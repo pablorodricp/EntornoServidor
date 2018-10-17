@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+    
+<script>
+
+var desordenado= [4,0,3,4,7,3,5,8,1,8,8,0,2,3,1,2,5,7,3,2,5,1];
+
+var ordenado = [];
+
+document.write('Desordenado: '+desordenado+'<br>');
+
+desordenado.sort();
+
+document.write('Sin Filtrar: '+desordenado+'<br>');
+
+for (var i = 0; i <= desordenado.length; i++) {
+    if (desordenado[i] != desordenado[i+1]) {
+        ordenado.push(desordenado[i]);
+    }
+}
+document.write('Filtrado: '+ordenado);
+
+
+</script>
+
+
+</body>
+</html>
