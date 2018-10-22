@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+    
+<script>
+
+    var dias=['Lunes','Martes','Miercoles','Jueves','Viernes'];
+    
+    dias.push('Sabado');
+    
+    dias.splice(dias.length,0,'Domingo');
+    
+    document.write(dias+'<br>');
+
+    var diasLaborables= dias.slice(0,5);
+
+    var diasFestivos = dias.slice(5,7);
+
+    document.write('Dias Laborables: '+diasLaborables+'<br>');
+    
+    
+    document.write('Dias Festivos: '+diasFestivos+'<br>');
+</script>
+
+
+</body>
+</html>

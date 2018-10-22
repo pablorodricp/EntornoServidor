@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <script>
+        var palabras=new Array;   
+        var contador=0;
+        do{
+            var palabra=prompt("Introduce palabras");
+            palabras[contador]=palabra;
+            contador++;
+        }while (palabra!="stop");
+            // Elimina el stop
+            palabras.splice(palabras.length-1, 1);
+
+            var longitud=contador-2;
+            alert("Ultima palabra: "+palabras[longitud]);
+        
+            alert("Numero total de palabras: "+(contador-1));
+        
+            alert("Palabras ordenadas alfabeticamente: "+palabras.sort());
+    </script>
+</body>
+</html>
